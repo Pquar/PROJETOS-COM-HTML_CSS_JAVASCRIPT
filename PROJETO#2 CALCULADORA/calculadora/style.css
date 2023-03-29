@@ -1,0 +1,37 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.calculator {
+	background-color: #ddd;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.buttons {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 10px;
+	margin-top: 10px;
+}
+
+button {
+	background-color: #fff;
+	border: none;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #eee;
+}
+
+.operator {
+	background-color: #ff8c00;
+	color: #fff;
+}
