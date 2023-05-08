@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <title>MMC</title>
+</head>
+<body>
+    <h2>Cálculo de MMC de dois números</h2>
+    <form id="formulario">
+        <label for="numero1">Digite um número</label>
+        <input name="numero1" id="numero-1" type="text" placeholder="primeiro número" />
+        <br />
+        <label for="numero2">Digite outro número</label>
+        <input name="numero2" id="numero-2" type="text" placeholder="segundo número" />
+        <br />
+        <button id="botao">Calcular MMC</button>
+        <br />
+        <div id="resposta">
+        </div>
+    </form>
+</body>
+<script>
+    var botaoCalcular = document.querySelector("#botao");
+    botaoCalcular.addEventListener("click", function(event){
+      event.preventDefault();
+      var form = document.querySelector("#formulario");
+      var n1 = form.numero1.value;
+      var n2 = form.numero2.value;
+      resposta.textContent = "O MMC dos dois números é " + calculaMmc(n1, n2);
+    });
+    function calculaMmc(n1, n2) {
+      var resto, a, b;
+      a = n1;
+      b = n2;
+      while(resto!=0){
+        resto = a % b;
+        a = b;
+        b = resto;
+      }
+      return (n1*n2)/a;
+    };
+</script>
+</html>
+
