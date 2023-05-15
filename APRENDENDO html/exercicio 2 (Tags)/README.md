@@ -29,10 +29,10 @@ Exemplo de tags HTML:
 - ```<td>```: Define uma célula da tabela.
 > obs: celulas da tabela podem ocupa mais de um espaço exemplo: 
 
-´´´html
+```html
 <th rowspan="3"; colspan="2"; bgcolor="white"></th>
 <!-- neste caso falamos que tem 3 linha 2 colunas e a cor de fundo e branca -->
-´´´
+```
 
 ## Tema: Links
 - ```<a>```: Define um link.
