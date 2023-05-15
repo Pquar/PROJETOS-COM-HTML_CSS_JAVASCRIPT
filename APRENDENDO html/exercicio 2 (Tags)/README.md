@@ -27,6 +27,7 @@ Exemplo de tags HTML:
 - ```<tr>```: Define uma linha da tabela.
 - ```<th>```: Define uma célula de cabeçalho da tabela.
 - ```<td>```: Define uma célula da tabela.
+- ```<caption>```: Define o titulo da tabela; Para o titulo aparecer em baixo da tabela ``style="caption-side:bottom" ``
 > obs: celulas da tabela podem ocupa mais de um espaço exemplo: 
 
 ```html
