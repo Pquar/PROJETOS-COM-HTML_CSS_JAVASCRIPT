@@ -1,6 +1,6 @@
 # Aprendendo JS
 
-
+## Tabela verdade
 | P     | Q     | P && Q | P \|\| Q | !P    |
 |-------|-------|---------|----------|-------|
 | True  | True  | True    | True     | False |
@@ -74,4 +74,24 @@ btn.addEventListener("click", function() {
 ```
 Neste exemplo, assumimos que você tem dois campos de entrada de texto com os IDs `numero1` e `numero2`, um botão com o ID `calcular` e um campo de saída de texto com o ID `resultado`. A função somar é chamada quando o botão é clicado, obtendo os valores dos campos de entrada de texto, chamando a função somar e exibindo o resultado no campo de saída de texto.
 
+## Funções Anônimas
+Em JavaScript, você pode definir uma função sem nome. Essas funções são chamadas de funções anônimas. Você pode atribuir uma função anônima a uma variável ou passá-la como um argumento para outra função.
+
+### Atribuindo uma Função Anônima a uma Variável
+A sintaxe para atribuir uma função anônima a uma variável é a seguinte:
+
+```javascript
+var nomeDaVariavel = function(parametro1, parametro2) {
+  // Código a ser executado
+  return resultado; // Opcional
+}
+```
+`nomeDaVariavel`: É o nome que você escolhe para a variável.<br>
+`parametro1,parametro2`: São os parâmetros de entrada que você pode passar para a função. Eles são opcionais e você pode ter quantos parâmetros desejar.<br>
+`Código a ser executado`: É o bloco de código que a função irá executar quando for chamada.<br>
+`return resultado`: É opcional e é usado para retornar um valor da função.
+
+## API com javascript
+
+Uma api funciona como um intermediário entre dois programas, permitindo que eles se comuniquem de forma padronizada. Por exemplo, quando você usa um aplicativo de mensagens, ele se comunica com a API do servidor de mensagens, que por sua vez se comunica com o servidor de mensagens do destinatário. A API do servidor de mensagens é o intermediário entre os dois aplicativos de mensagens.
 
