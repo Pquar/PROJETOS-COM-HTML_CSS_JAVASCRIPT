@@ -18,6 +18,10 @@
 	margin-top: 10px;
 }
 
+.button:not(.operador) {
+	grid-column: span 1 / span 3;
+}
+
 button {
 	background-color: #fff;
 	border: none;
